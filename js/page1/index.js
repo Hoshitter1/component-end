@@ -1,8 +1,3 @@
-const alertClicked = () => {
-  alert("alertがclickされたよ");
-};
-document.querySelector("#alert").addEventListener("click", alertClicked);
-
 const goTopClicked = () => {
   window.location.href = "top.html";
 };
